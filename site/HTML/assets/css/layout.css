@@ -31,7 +31,8 @@ html, body {
 }
 
 body {
-	color:#787878;
+	/**color:#787878;**/
+	color:#FF5361;
 	font-family:'Open Sans', Arial, sans-serif;
 	background-color:#fbfbfb;
 	letter-spacing:0px;
@@ -1310,3 +1311,21 @@ footer p.alternate {
 	background-color:#ddd;
 }
 /** *** **/
+
+div.vhCenter{
+    width:300px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -150px;
+}
+
+div.container3 {
+   height: 10em;
+   position: relative }              /* 1 */
+div.container3 p {
+   margin: 0;
+   position: absolute;               /* 2 */
+   top: 50%;                         /* 3 */
+   transform: translate(0, -50%) }   /* 4 */
